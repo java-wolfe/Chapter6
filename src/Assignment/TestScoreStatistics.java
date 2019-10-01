@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class TestScoreStatistics {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
-        int numOfEntries;
+        int numOfEntries = 0;
         int high = 0;
         int low = 100;
         int avg;
-        int scoreTotal;
+        int scoreTotal = 0;
         int userEntry = 0;
 
         while (userEntry != 999){
